@@ -13,29 +13,29 @@
     Lilas: #5f2c82
 */
 
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 992px){
     section#login{
-        width: 90vw;
-        height: 75vh;
+        width: 80vw;
+        
     }
     section#login > div#imagem{
         float: left;
-        width: 35%;
+        width: 30%;
         height: 100%;
     }
     section#login > div#formulário{
         float: right;
-        width: 65%;
+        width: 70%;
     }
     body, html{
         background-image: linear-gradient(to top,  #49a09d, #5f2c82);
     }
 }
 
-@media screen and (min-width: 769px ) and (max-width: 1279px) {
+@media screen and (min-width: 992px) {
     section#login{
-        width: 90vw;
-        height: 75vh;
+        width: 950px;
+        
     }
     section#login > div#imagem{
         float: left;
@@ -44,25 +44,6 @@
     }
     section#login > div#formulário{
         float: right;
-        width: 50%;
-    }
-    body, html{
-        background-image: linear-gradient(to top,  #49a09d, #5f2c82);
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    section#login{
-        width: 90vw;
-        height: 75vh;
-    }
-    section#login > div#imagem{
-        float: right;
-        width: 50%;
-        height: 100%;
-    }
-    section#login > div#formulário{
-        float: left;
         width: 50%;
     }
     body, html{
@@ -77,3 +58,4 @@
         font-size: 1em;
     }
 }
+
